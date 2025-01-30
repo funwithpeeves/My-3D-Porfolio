@@ -8,14 +8,4 @@ Three.js: 3D grafik işleme
 Tailwind CSS: Esnek ve özelleştirilebilir stillendirme
 
 
-This project is an interactive 3D portfolio website built using modern web technologies. It aims to provide a visually engaging way to showcase projects, skills, and experiences. By leveraging React for component-based UI development, Vite for a fast development environment, and Three.js for rendering 3D graphics, this portfolio delivers a seamless and immersive user experience. The addition of Tailwind CSS ensures a responsive and customizable design, making it adaptable to various screen sizes and devices.
-
-Technologies Used
-
-React: Component-based UI development
-
-Vite: Fast and efficient development environment
-
-Three.js: 3D graphics rendering
-
-Tailwind CSS: Flexible and customizable styling
+![my3dportfolio](https://github.com/user-attachments/assets/42864e0f-950f-4ca6-8f70-06afe4de2a21)
