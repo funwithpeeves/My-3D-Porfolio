@@ -23,10 +23,9 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Sedef YILDIZ</p>
+              <p className="grid-headtext">Merhaba, Ben Sedef YILDIZ</p>
               <p className="grid-subtext">
-                With 2 years of experience, I have honed my skills in frontend, creating dynamic
-                and responsive websites.
+               2 yıllık deneyimimle, dinamik ve duyarlı web siteleri oluşturarak frontend alanındaki becerilerimi geliştirdim.
               </p>
             </div>
           </div>
@@ -39,8 +38,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                Güçlü ve ölçeklenebilir uygulamalar geliştirmemi sağlayan çeşitli programlama dilleri, framework'ler ve araçlar konusunda uzmanım.
               </p>
             </div>
           </div>
@@ -74,10 +72,9 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">Kodlama İçin Tutkum</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                Problemleri çözmeyi ve kod yazarak projeler geliştirmeyi seviyorum. Programlama sadece mesleğim değil, aynı zamanda tutkum. Yeni teknolojileri keşfetmekten ve becerilerimi geliştirmekten keyif alıyorum.
               </p>
             </div>
           </div>
@@ -92,7 +89,7 @@ const About = () => {
             />
 
             <div className="space-y-2">
-              <p className="grid-subtext text-center">Contact me</p>
+              <p className="grid-subtext text-center">Benimle İletişime Geçin</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">sedefyildiz3845@gmail.com</p>
