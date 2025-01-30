@@ -1,22 +1,22 @@
 export const navLinks = [
     {
       id: 1,
-      name: 'Home',
+      name: 'Ev',
       href: '#home',
     },
     {
       id: 2,
-      name: 'About',
+      name: 'Hakkımda',
       href: '#about',
     },
     {
       id: 3,
-      name: 'Work',
+      name: 'İş',
       href: '#work',
     },
     {
       id: 4,
-      name: 'Contact',
+      name: 'İletişim',
       href: '#contact',
     },
   ];
@@ -24,9 +24,9 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'Pretty Little Liars Website',
-      desc: 'This responsive website was created for one of my favourite tv shows "Pretty Little Liars"',
+      desc: 'Bu duyarlı web sitesi, en sevdiğim dizilerden biri olan "Pretty Little Liars" için oluşturuldu.',
       subdesc:
-        'HTML, CSS and JavaScript were used while creating this website. This website has navigation bar, responsive navigation bar, slider, responsive slider, footer, responsive footer.',
+        'Bu web sitesi oluşturulurken HTML, CSS ve JavaScript kullanılmıştır. Bu web sitesinde bir navigasyon çubuğu, duyarlı navigasyon çubuğu, kaydırıcı, duyarlı kaydırıcı, alt bilgi ve duyarlı alt bilgi bulunmaktadır.',
       href: 'https://pretty-little-liars-website.vercel.app/',
       texture: '/textures/project/pllwebsitevideo.mp4',
       logo: 'assets/ariabeingssh.jpg',
@@ -56,9 +56,9 @@ export const navLinks = [
     },
     {
       title: 'E-commerce Product Catalog',
-      desc: 'This project is an E-commerce Product Catalog designed to provide an intuitive and responsive interface for browsing and managing products.',
+      desc: 'Bu proje, ürünleri gezip yönetmek için sezgisel ve duyarlı bir arayüz sunmak üzere tasarlanmış bir E-ticaret Ürün Kataloğudur.',
       subdesc:
-        'Built with modern web development tools such as TypeScript, TailwindCSS, and Vite, the application emphasizes performance, scalability, and maintainability.',
+        'TypeScript, TailwindCSS ve Vite gibi modern web geliştirme araçlarıyla oluşturulmuş olan bu uygulama, performans, ölçeklenebilirlik ve sürdürülebilirliğe odaklanmaktadır.',
       href: 'https://e-commerce-product-catalog-zeta.vercel.app/',
       texture: '/textures/project/wingman.webm',
       logo: '/assets/wingman.png',
@@ -113,27 +113,27 @@ export const navLinks = [
     {
       id: 1,
       name: 'Didiyos',
-      pos: 'React Developer',
+      pos: 'React Geliştirici',
       duration: '12/2024 - Present',
-      title: "A highly skilled Frontend Developer specializing in React.js, TypeScript, and Next.js. Passionate about building scalable, high-performance web applications with modern UI/UX principles. Experienced in state management, API integrations, and performance optimization.",
+      title: "React.js, TypeScript ve Next.js konusunda uzmanlaşmış son derece yetenekli bir Frontend Developer. Modern UI/UX ilkeleriyle ölçeklenebilir, yüksek performanslı web uygulamaları geliştirmeye tutkusu vardır. Durum yönetimi, API entegrasyonları ve performans optimizasyonu konusunda deneyime sahiptir.",
       icon: '/assets/didiyos.png',
       animation: 'victory',
     },
     {
       id: 2,
       name: 'BulutPress Web Design Reseller System',
-      pos: 'React Developer',
+      pos: 'React Geliştirici',
       duration: '07/2024 - 12/2024',
-      title: "Designing web sites for customers using HTML, CSS and JavaScript.",
+      title: "HTML, CSS ve JavaScript kullanarak müşteriler için web siteleri tasarlamak.",
       icon: '/assets/bulutpress.png',
       animation: 'clapping',
     },
     {
       id: 3,
       name: 'EmaarTechs',
-      pos: 'React Developer',
+      pos: 'React Geliştirici',
       duration: '10/2022 - 10/2024',
-      title: "Results-driven Frontend Developer with expertise in React.js, TypeScript, and Next.js. Adept at crafting intuitive, high-performance web applications with a strong focus on user experience and scalability. Skilled in state management, API integrations, and optimizing web performance for seamless user interactions.",
+      title: "Sonuç odaklı bir Frontend Developer, React.js, TypeScript ve Next.js konusunda uzman. Kullanıcı deneyimi ve ölçeklenebilirliğe güçlü bir odaklanarak sezgisel, yüksek performanslı web uygulamaları geliştirmede yetkin. Durum yönetimi, API entegrasyonları ve web performansını optimize etme konularında yetenekli.",
       icon: '/assets/emaartechs.jpeg',
       animation: 'salute',
     },
