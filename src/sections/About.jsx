@@ -60,9 +60,9 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Kayseri, Turkey and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-headtext">Zaman dilimi iletişimleri ve konumlar konusunda çok esneğim.</p>
+              <p className="grid-subtext">Kayseri, Türkiye'de yaşıyorum ve dünya çapında uzaktan çalışmaya açığım.</p>
+              <Button name="Benimle İletişime Geçin" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
         </div>
