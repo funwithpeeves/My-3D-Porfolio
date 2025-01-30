@@ -38,7 +38,7 @@ const Contact = () => {
           setLoading(false);
           showAlert({
             show: true,
-            text: 'Thank you for your message 😃',
+            text: 'Mesajınız için teşekkürler 😃',
             type: 'success',
           });
 
@@ -57,7 +57,7 @@ const Contact = () => {
 
           showAlert({
             show: true,
-            text: "I didn't receive your message 😢",
+            text: "Mesajınızı almadım 😢",
             type: 'danger',
           });
         },
@@ -87,7 +87,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., John Doe"
+                placeholder="ör., Ayşe Demirci"
               />
             </label>
 
@@ -100,7 +100,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="field-input"
-                placeholder="ex., johndoe@gmail.com"
+                placeholder="ör., aysedemirci@gmail.com"
               />
             </label>
 
@@ -118,7 +118,7 @@ const Contact = () => {
             </label>
 
             <button className="field-btn" type="submit" disabled={loading}>
-              {loading ? 'Sending...' : 'Send Message'}
+              {loading ? 'Gönderiliyor...' : 'Mesaj Gönderin'}
 
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
